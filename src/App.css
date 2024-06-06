@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+body{
+  background-color: #2B2A4C;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+h1{
+  color:#EEE2DE;
+  font-size: 70px;
+  margin-top: 20px;
+  font-family: Apple Chancery, cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.planet{
+  color: #EA906C;
+  font-size: 40px;
+  font-family: Apple Chancery, cursive;
+}
+.pic{
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.planetOne{
+  font-size: 20px;
+  font-family: 	monospace;
+  color: #E5CFF7;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.planetTwo{
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: Courier New, monospace;
+  color: #F1EEDC;
+  font-size: 18px;
+}
+
+.btn {
+
+  background-color: #EFBC9B;
+  font-family: Andale Mono, monospace;
+  color: #26355D;
+
+  padding: 10px;
+
+  border: none;
+  border-radius: 10px;
+
+  text-transform: uppercase;
+
+}
+
+
+.par{
+  display: flex;
+  justify-content:space-around
+}
+
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.fact{
+  color: #82AAE3;
+  font-size: 40px;
+  font-family: serif;
+}
+.factOne{
+  color: #91D8E4;
+  font-size: 30px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: bolder;
+}
+.bottom{
+  margin-bottom: 100px;
+}
+.factTwo{
+  color: #F2F7A1;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.mainOne{
+  position:relative;
+}
+.btnOne{
+  text-transform: uppercase;
+  background-color: #2B2A4C;
+  border: none;
+  color: #F9F54B;
+  font-size: 20px;
+}
+.picture{
+ border: 1px solid#F2F7A1;
+ padding: 5px;
+opacity: 0.6;
+width: 500px;
+height: 300px;
 }
